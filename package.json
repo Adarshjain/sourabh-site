@@ -1,0 +1,38 @@
+{
+  "name": "sourabh-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gql": "gql-gen"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@apollo/react-ssr": "^3.1.5",
+    "@react-hook/window-scroll": "^1.3.0",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "framer-motion": "^1.11.0",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.4.4",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "@graphql-codegen/cli": "^1.13.3",
+    "@graphql-codegen/typescript": "^1.13.3",
+    "@graphql-codegen/typescript-operations": "^1.13.3",
+    "eslint": "^7.1.0"
+  }
+}
